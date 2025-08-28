@@ -1,0 +1,312 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+background-image: url(wa.avif);
+background-repeat: no-repeat;
+background-size: cover;
+ 
+}
+#one{
+     background-color: rgb(240, 96, 44);
+      height:150px;
+      border-radius: 5px;
+}
+a{
+    color:Black;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: white;
+}
+#c1{
+    margin-left: 50%;
+    position: relative;
+    top:50px;
+    padding: 20px;
+    text-shadow: 0 0 5px rgb(241, 208, 16),0 0 5px white;
+
+}
+#c2{
+    position: relative;
+    top:50px;
+    padding: 20px;
+    text-shadow: 0 0 5px rgb(241, 208, 16),0 0 5px white;
+
+}
+#c3{
+    position: relative;
+    top:50px;
+    padding: 20px;
+    text-shadow: 0 0 5px rgb(241, 208, 16),0 0 5px white;
+
+}
+#c4{
+    position: relative;
+    top:50px;
+    padding: 20px;
+    text-shadow: 0 0 5px rgb(241, 208, 16),0 0 5px white;
+
+}
+#c5{
+    position: relative;
+    top:50px;
+    padding: 20px;
+    text-shadow: 0 0 5px rgb(241, 208, 16),0 0 5px white;
+
+}
+#c6{
+    width:55px;
+    height:40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 35px;
+}
+#c7{
+    width:55px;
+    height:40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 10px;
+}
+#c8{
+    width:55px;
+    height:40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 10px;
+}
+h2{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+h1{
+    margin-left: 150px;
+    font-size: 60px;
+}
+p{
+    margin-left: 150px;
+    font-size: 20px;
+}
+button{
+    width:80px;
+    height:30px;
+    margin-left: 150px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+#two{
+    margin-left: 150px;
+    margin-top: 14px;
+}
+i{
+    font-size: 30px;
+    text-shadow: 0 0 10px orangered,0 0 10px orangered;
+
+}
+i:hover{
+    color:orangered;
+}
+span{
+    color:orangered;
+}
+button:hover{
+    color: orangered;
+}
+#uma{
+    margin-left:100px;
+
+  }
+  #content{
+    width:300px;
+    height:350px;
+    border-radius: 50%;
+    border:2px solid black;
+    position:relative;
+    left:950px;
+    bottom:250px;
+  }
+  #siva{
+    width:300px;
+    height:320px;
+    margin-left: 100px;
+    margin-top: 60px;
+    border-radius: 50%;
+    background-image: url(bharu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px orangered,0 0 10px orangered;
+  }
+  h3{
+    font-size: 20px;
+  }
+
+    
+
+  /* ----------- Mobile View (max 600px) ----------- */
+@media (max-width: 600px) {
+    /* Navbar mobile size */
+    nav #one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    /* Card section (text + image) */
+    #card {
+        flex-direction: column;   /* மேல - கீழ் வருது */
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #uma h1 {
+        font-size: 22px;
+    }
+
+    #uma h2 {
+        font-size: 18px;
+    }
+
+    #uma p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    #uma button {
+        font-size: 14px;
+        padding: 8px 14px;
+        margin-top: 10px;
+    }
+
+    /* Social icons */
+    #two {
+        justify-content: center;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    #two i {
+        font-size: 22px;
+    }
+
+    /* Image box */
+    #siva {
+        width: 100%;
+        height: 220px;
+        margin-top: 20px;
+        background: url('your-image.jpg') no-repeat center/cover;
+    }
+}
+/* ----------- Mobile View (max 425px) ----------- */
+@media (max-width: 425px) {
+    /* Navbar */
+    nav #one #c1,#c2,#c3,#c4,#c5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #c1{
+        position: relative;
+        left: -28px;
+        top:20px;
+    }
+    #c2{
+        position: relative;
+        top:-10px;
+        
+    }
+    #c3{
+        position: relative;
+        top:-40px;
+        
+    }
+    #c4{
+        position: relative;
+        top:-70px;
+        
+    }
+    #c5{
+        position: relative;
+        top:-100px;
+        
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    /* Card section (text + image) */
+    #card {
+        flex-direction: column;   /* மேல–கீழ் */
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+    #uma{
+        position: relative;
+        left: -118px;
+        top: 220px;
+    }
+
+    #uma h2 {
+        font-size: 16px;
+    }
+
+    #uma h1 {
+        font-size: 20px;
+    }
+
+    #uma p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    #uma button {
+        font-size: 13px;
+        padding: 6px 12px;
+        margin-top: 8px;
+    }
+
+    /* Social icons */
+    #two {
+        justify-content: center;
+        gap: 12px;
+        margin-top: 12px;
+    }
+
+    #two i {
+        font-size: 20px;
+    }
+
+    /* Image box */
+    #siva {
+        width: 80%;
+        height: 210px;
+        margin-top: 15px;
+        background: url('bharu.jpg') no-repeat center/cover;
+        position: relative;
+        bottom: 300px;
+        left: -50px;
+    } 
+    #one{
+      background-color: rgb(240, 96, 44);
+      height:180px;
+    }  
+    a:hover{
+      color: white;
+    }
+}

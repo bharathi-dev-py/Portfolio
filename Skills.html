@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-image: url(wa.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            font-size: 50px;
+            margin-top: 3%;
+            text-align: center;
+            text-shadow: 0 0 10px orangered,0 0 10px orangered;
+        }
+        #one{
+            width:350px;
+            height:200px;
+            border:2px solid black;
+            border-radius: 20px;
+            margin-left: 18%;
+            box-shadow: 0 0 30px burlywood,0 0 30px burlywood;
+            background-color:rgb(73, 71, 71);
+            color: white;
+        }
+        #one:hover{
+            box-shadow: 4px 4px 4px black;
+                    background: linear-gradient(to right,rgb(255,255,255),rgb(254,215,173));
+            color:black;
+        }
+        #two{
+            width:350px;
+            height:200px;
+            border:2px solid black;
+            border-radius: 20px;
+            margin-left: 10%;
+            box-shadow: 0 0 30px burlywood,0 0 30px burlywood;
+             background-color:rgb(73, 71, 71);
+            color: white;
+        }
+        #two:hover{
+            box-shadow: 4px 4px 4px black;
+            color:black;
+                    background: linear-gradient(to right,rgb(255,255,255),rgb(254,215,173));
+                }
+        #three{
+            width:350px;
+            height:200px;
+            border:2px solid black;
+            border-radius: 20px;
+            margin-left: 36%;
+            margin-top: 45px;
+            box-shadow: 0 0 30px burlywood,0 0 30px burlywood;
+            background-color:rgb(73, 71, 71);
+            color: white;
+ }
+ #three:hover{
+            box-shadow: 4px 4px 4px black;
+            color: black;
+                    background: linear-gradient(to right,rgb(255,255,255),rgb(254,215,173));
+
+        }
+ h2{
+    font-size: 30px;
+    text-align: center;
+    color: gold;
+ }
+ ul{
+    text-align: center;
+    list-style-position: inside;
+    text-align: left;
+    font-size: 23px;
+    position: relative;
+    bottom:20px;
+ }
+ #content{
+    margin-left: 43%;
+ }
+ #c1{
+    width:50px;
+    height:30px;
+    background-color:orangered;
+    color:white;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 450px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 30px;
+ }
+ i{
+    color:white;
+ }
+ i:hover{
+    color:black;
+ }
+
+ @media screen and (max-width: 768px) {
+    #card {
+        flex-direction: column;
+        align-items: center;
+    }
+    #one, #two, #three {
+        width: 80%;
+        margin: 20px 0;
+        height: auto;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    ul {
+        font-size: 20px;
+    }
+    #c1 {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+
+
+ @media screen and (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+    #one, #two, #three {
+        width: 90%;
+    }
+    ul {
+        font-size: 18px;
+    }
+    #three{
+        position: relative;
+        left: 18px;
+    }
+    h1{
+        position: relative;
+        right: 24px;
+    }
+    #c1{
+        position: relative;
+        top: 22px;
+        right: 97px;
+        width:30px;
+        height:20px;
+    }
+    a{
+        font-size: 10px;
+        position: relative;
+        bottom:7px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="content" style="display: flex;">
+    <h1>SKILLS</h1><div id="c1">
+    <a class="home" href="index.html"><i id="home" class="fa-solid fa-house"></i></a></div></div>
+    <div id="card" style="display: flex;">
+    <div id="one"><h2><marquee>Front-end</marquee></h2>
+        <ul><li>HTML5</li>
+        <li>CSS3</li>
+    <li>Bootstrap(FrameWork)</li></ul>
+    </div>
+    <div id="two"><h2><marquee>Back-End</marquee></h2>
+        <ul><li>Python</li>
+        <li>Django</li></ul>
+    </div></div>
+    <div id="three"><h2><marquee>DataBase</marquee></h2><ul><li>SQL</li><li>My SQL</li></ul></div>
+</body>
+</html>

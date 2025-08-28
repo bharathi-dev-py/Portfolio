@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-image: url(wa.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            font-size: 50px;
+            font-family: sans-serif;
+            text-align: center;
+            text-shadow: 0 0 10px orangered,0 0 10px orangered;
+
+        }
+        #one{
+            height:170px;
+            width:700px;
+            border:2px solid black;
+            border-radius: 30px;
+            margin-left: 300px;
+            text-align: left;
+            font-size: 19px;
+            box-shadow: 3px 3px 3px black;
+            animation-name: n1;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            background: linear-gradient(to right,rgb(255,255,255),rgb(254,215,173));
+
+        }
+        @keyframes n1 {
+            50%{color:purple;}
+            100%{color:darkgreen; }
+        }
+        #two{
+            height:170px;
+            width:700px;
+            border:2px solid black;
+            border-radius: 30px;
+            margin-left: 300px;
+            text-align: left;
+            font-size: 19px;
+            margin-top: 30px;
+            box-shadow: 3px 3px 3px black;
+             animation-name: n2;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            background: linear-gradient(to right,rgb(255,255,255),rgb(254,215,173));
+
+        }
+         @keyframes n2 {
+            50%{color:darkcyan;}
+            100%{color:brown; }
+        }
+        ul{
+            position: relative;
+            bottom: 15px;
+        }
+        h3{
+            margin-left: 20px;
+        }
+        #c1{
+            width:50px;
+            height:30px;
+            border: 2px solid black;
+            margin-left: 90%;
+            position: relative;
+            bottom:80px;
+            border-radius: 20px;
+            background-color: orangered;
+            text-align: center;
+            line-height: 27px;
+        }
+        i{
+            color:white;
+        }
+        i:hover{
+            color:black;
+        }
+
+        @media screen and (max-width: 768px) {
+    #one, #two {
+        width: 90%;
+        margin: 15px auto;
+        font-size: 16px;
+        height: auto;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    #c1 {
+        margin-left: 0;
+        bottom: 20px;
+        margin-top: 10px;
+        
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    #one, #two {
+        width: 95%;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    ul {
+        font-size: 14px;
+    }
+    #c1{
+        position: relative;
+        top: -5px;
+        left: 180px;
+        height:20px;
+        width:30px;
+        background-color: orangered;
+
+
+    }
+    a{
+        font-size: 12px;
+        position: relative;
+        bottom: 6px;
+    }
+}
+@media (max-width: 320px){
+    #c1{
+        position: relative;
+        left:130px;
+        
+    }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div id="card">
+    <h1>Project</h1><div id="c1">
+    <a href="index.html"><i class="fa-solid fa-house"></i></a></div>
+    </div>
+    <div id="one"><h3>Quiz Program in Python</h3>
+<ul><li><b>
+Developed a console-based quiz application that accepts direct user input and evaluates answers.</li>
+<li>Implemented scoring logic and result display using Python fundamentals such as loops, functions, and conditionals.</li></ul></div>
+<div id="two"><h3>Portfolio Website</h3>
+<ul><li>Designed and developed a personal portfolio website using HTML, CSS.
+</li>
+<li>Showcased skills, projects, and contact information with a clean and responsive layout.</li></ul></div>
+
+<div id="c3">
+    <img src="wa.avif">
+</div>
+</body>
+</html>
